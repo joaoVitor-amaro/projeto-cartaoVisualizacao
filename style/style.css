@@ -14,13 +14,13 @@ body {
 }
 
 main {
+    max-width: 1000px;
     display: flex;
     flex-direction: row;
     color: white;
 }
 
 main > section {
-    max-width: 13rem;
     padding: 30px;
 }
 
