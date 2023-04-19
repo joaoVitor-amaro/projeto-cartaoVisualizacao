@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     padding: 10px;
 }
 
@@ -92,6 +93,9 @@ main section#card-luxry > button:hover {
 }
 
 @media screen and (max-width: 760px) {
+    body{
+        overflow: scroll;
+    }    
     main {
         display: flex;
         flex-wrap: wrap;
